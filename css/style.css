@@ -1,9 +1,22 @@
 #ball
 {
-	width: 100px;
-	height: 100px;
+	width: 250px;
+	height: 250px;
 	background: black;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-moz-border-radius: 125px;
+	-webkit-border-radius: 125px;
+	border-radius: 125px;
+	margin: 0 auto;
+}
+#window
+{
+    width: 150px;
+    height: 150px;
+    background: rgb(7, 7, 7);
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: relative;
+    margin: auto;
+    top: 45px;
 }
