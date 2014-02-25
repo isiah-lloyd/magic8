@@ -7,6 +7,13 @@
 	-webkit-border-radius: 125px;
 	border-radius: 125px;
 	margin: 0 auto;
+	background-image: -webkit-gradient(
+	linear,left top,left bottom,color-stop(0, #5D665D),color-stop(1, #000000));
+    background-image: -o-linear-gradient(bottom, #5D665D 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #5D665D 0%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #5D665D 0%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #5D665D 0%, #000000 100%);
+    background-image: linear-gradient(to bottom, #5D665D 0%, #000000 100%);
 }
 #window
 {
@@ -21,9 +28,12 @@
     top: 45px;
 }
 #triangle {
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid rgb(0, 4, 56);
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
 }
