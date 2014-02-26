@@ -50,3 +50,22 @@
     position: relative;
     top: 15px;
 }
+#ball:hover
+{
+    -webkit-animation-name: shake;
+    -moz-animation-name:shake;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+}
+
+@-webkit-keyframes shake
+{
+    from
+    {
+     transform: translate(-100px);
+     }
+    to
+    {
+    transform: translateX(100px);
+  }
+}
