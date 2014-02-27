@@ -52,7 +52,7 @@
 }
 #inputQuestion
 {
-  width: 210px;
+  width: 198px;
   font-size: 1em;
   line-height: 1.25em;
   padding: 0.3125em 0;
@@ -60,6 +60,7 @@
   border: 0;
   border-bottom: 0.125em solid #bbbbbb;
   outline: none;
+  padding-left: 3px;
 }
 #inputQuestion:focus
 {
