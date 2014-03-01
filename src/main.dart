@@ -13,7 +13,7 @@ void main()
 {
  textbox.attributes['placeholder'] = placeholderText[randomInt];
  textbox.onInput.listen((EventListener) {
-   infotext.classes.add('.infotextafter');
+   infotext.style.opacity = "1";
  });
  window.onKeyUp.listen(enterPressed);
 }
