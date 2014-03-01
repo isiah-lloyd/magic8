@@ -2,7 +2,8 @@
 
 <html>
   <head>
-    <title>landingpage</title>
+    <title>Magic8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:700,500,400,300,100' rel='stylesheet' type='text/css'>
   </head>
@@ -10,11 +11,11 @@
   <body> 
     <div id="container">
       <p id="infotextbefore">Press enter to shake!</p>    
-      <span style="font-family: 'Roboto Slab', serif; font-weight: 700;">Magic 8 ball, <input type="text" id="inputQuestion" placeholder="am I cool?"></span> 
+      <span style="font-family: 'Roboto', sans-serif; font-weight: 500;">Magic 8 ball, <input type="text" id="inputQuestion" placeholder="am I cool?" /><span id="question">N/A</span></span> 
     </div>
     
-    <script type="application/dart" src="src/main.dart"></script>
+    <script type="application/dart" src="web/main.dart"></script>
     <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
-    <!-- <script src="packages/browser/dart.js"></script>-->
+    <script src="packages/browser/dart.js"></script>
   </body>
 </html>

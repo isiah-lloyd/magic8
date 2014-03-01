@@ -12,6 +12,7 @@ pubspec.lock
 
 // Avoid committing generated JavaScript files
 *.dart.js
+build/
 
 
 ### Windows ###
